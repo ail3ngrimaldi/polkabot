@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "CommonJS",
+      "outDir": "client/src",
+      "rootDir": "index.ts",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+     },
+    "exclude": ["nodemodules"],
+    "include": ["index.ts"]
+    }
