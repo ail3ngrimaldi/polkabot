@@ -1,0 +1,24 @@
+.button {
+    font-family: 'Exo', sans-serif;
+    font-weight: bolder;
+    background-color:  #eb4279;
+    font-size: 1.125rem;
+    color: #fff6f4;
+    border-radius: 5px;
+    height: 4rem;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.button:hover,
+.button:focus {
+    color: #eb4279;
+    background-color: #fff6f4;
+}
+
+.container__button {
+    display: grid;
+    place-items: center;
+}
